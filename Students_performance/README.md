@@ -1,25 +1,27 @@
-# 📊 Global Store Sales Analysis
+# 🎓 Students Performance Analysis
 
 ## 📌 Project Overview
 
-This project focuses on analyzing the Global Store sales dataset to evaluate sales performance, profitability, customer behavior, shipping operations, and regional performance.
+This project analyzes student performance data to understand the relationship between academic results, attendance, family background, study habits, parental support, and other student-related factors.
 
-The main objective was to transform raw sales data into an interactive Power BI dashboard that provides clear and actionable business insights.
+The objective was to transform student-level data into an interactive Power BI dashboard that can help educational institutions understand student performance and identify factors that may influence academic outcomes.
 
 ---
 
 ## 🎯 Business Objectives
 
-The analysis aimed to answer key business questions:
+The analysis aimed to answer questions such as:
 
-- How are sales and profit performing?
-- Which regions and markets generate the highest sales?
-- Which products and sub-categories perform best?
-- How are sales changing compared to the previous year?
-- Which shipping modes are most frequently used?
-- Which customer segments contribute the most orders?
-- How do sales vary across months?
-- Where are potential opportunities to improve profitability?
+- How many students are included in the dataset?
+- What is the average student age?
+- Which school has more students?
+- How does academic performance differ between schools?
+- How does absenteeism vary by school?
+- Does study time relate to academic performance?
+- Does family support affect student performance?
+- How do internet access and paid classes relate to grades?
+- What is the relationship between family size and student characteristics?
+- How are previous failures distributed among students?
 
 ---
 
@@ -39,118 +41,147 @@ The analysis aimed to answer key business questions:
 
 | KPI | Value |
 |---|---:|
-| Total Sales | $12.64M |
-| Total Profit | $1.47M |
-| Total Orders | 51,290 |
-| Number of Customers | 17,415 |
-| Total Margin | 11.61% |
-| Average Processing Days | 4 |
-| Sales Last Year | $8.58M |
-| Profit Last Year | $991.29K |
-| Sales Growth | 47.28% |
+| Total Students | 397 |
+| Average Student Age | 18 |
+| Students in a Relationship | 132 |
+| Average Absences | 6 |
+| Students with Both Parents | 355 |
+| Students Receiving Family Support | 242 |
+| Students in Families > 3 Members | 283 |
+| Students in Families < 3 Members | 114 |
 
 ---
 
 ## 🔎 Key Insights
 
-### 💰 Sales & Profitability
+### 🏫 Students by School
 
-The business generated approximately **$12.64M in total sales** and **$1.47M in total profit**, with an overall margin of **11.61%**.
+The dataset contains **397 students** distributed across two schools.
 
-Compared with the previous year's sales of **$8.58M**, sales increased by approximately **47.28%**.
-
-This indicates strong year-over-year sales growth while also highlighting the importance of monitoring profitability as sales increase.
+The dashboard shows that **GP** has the largest number of students, with approximately **287 students**, representing around **72.29%** of the dataset.
 
 ---
 
-### 🌎 Market Performance
+### 📚 Academic Performance
 
-The analysis showed that:
+Average grades were analyzed across the two schools and across different student characteristics.
 
-- **Asia Pacific** generated approximately **$4.0M** in sales.
-- **Europe** generated approximately **$3.3M**.
-- **USCA** generated approximately **$2.4M**.
-- **LATAM** generated approximately **$2.2M**.
-- **Africa** generated approximately **$0.8M**.
+The dashboard provides comparisons between:
 
-Asia Pacific was therefore the strongest market by sales, while Africa represented a comparatively smaller market.
+- Mathematics performance
+- Reading performance
+- Writing performance
 
----
-
-### 📦 Product & Sub-Category Analysis
-
-The dashboard analyzed sales and quantity across different sub-categories.
-
-The highest sales sub-categories included:
-
-- Phones
-- Copiers
-- Chairs
-- Bookcases
-- Storage
-- Appliances
-
-The quantity analysis also highlighted **Binders, Storage, and Art** among the highest-volume sub-categories.
-
-This helps the business identify products with high demand and prioritize inventory and sales strategies.
+This allows educational decision-makers to identify differences in academic performance between schools and student groups.
 
 ---
 
-### 🚚 Shipping Analysis
+### 🏃 Attendance & Absences
 
-The analysis showed that **Standard Class** was the most frequently used shipping mode, with approximately **31K orders**.
+The overall average number of absences was approximately **6 days**.
 
-Other shipping modes included:
+There was a noticeable difference between the two schools:
 
-- Second Class: ~10K orders
-- First Class: ~8K orders
-- Same Day: ~3K orders
+- GP: **5.97 average absences**
+- MS: **3.68 average absences**
 
-Shipping cost analysis also showed that Standard Class accounted for the largest share of total shipping costs.
+This indicates that students in GP had a higher average number of absences than students in MS.
 
----
-
-### 👥 Customer Analysis
-
-The dashboard analyzed customer activity across:
-
-- Consumer
-- Corporate
-- Home Office
-
-The Consumer segment represented the largest customer group, with approximately **8.99K customers (51.6%)**.
-
-Corporate customers represented approximately **5.22K (29.98%)**, while Home Office represented approximately **3.21K (18.42%)**.
+Attendance can therefore be an important factor to monitor when evaluating student performance.
 
 ---
 
-### 📅 Monthly Order Trends
+### 👨‍👩‍👧 Family & Parental Support
 
-Monthly transaction analysis showed noticeable fluctuations throughout the year.
+The dashboard analyzed family-related characteristics and parental involvement.
 
-The highest transaction levels occurred around:
+Approximately **242 students** were identified as receiving family support.
 
-- November: ~6.3K
-- December: ~6.3K
-- September: ~6.0K
+The analysis also showed that approximately **355 students** live with both parents.
 
-These periods could be important for seasonal sales planning, inventory preparation, and marketing campaigns.
+Family relationship quality was also analyzed, with the largest group of students having a family relationship rating of **4**, representing approximately **50%** of the relevant group.
 
 ---
 
-## 💼 Business Value
+### 👩‍👦 Guardian Analysis
 
-This dashboard can help management:
+Among students who passed, the guardian distribution showed:
 
-- Monitor overall sales and profitability.
-- Identify high-performing markets.
-- Identify high-demand products.
-- Compare current performance with the previous year.
-- Improve inventory planning.
-- Understand customer segments.
-- Evaluate shipping patterns and costs.
-- Identify seasonal demand patterns.
-- Support data-driven sales and marketing decisions.
+- Mother: **150 students (69.44%)**
+- Father: **52 students (~24%)**
+- Other: **14 students (6.48%)**
+
+This analysis provides insight into the distribution of guardians among successful students.
+
+---
+
+### 🌐 Internet Access & Paid Classes
+
+The dashboard compared average grades based on:
+
+- Internet access
+- Paid educational support/classes
+
+The results showed differences in average grades between students with and without these resources.
+
+For example, the average grade values shown in the dashboard included approximately:
+
+- **10.63 vs 9.31** based on internet access
+- **11.09 vs 10.62** based on paid educational support
+
+These comparisons can help educational institutions investigate whether access to additional learning resources is associated with improved academic performance.
+
+---
+
+### 👨‍👩‍👧‍👦 Family Size
+
+The dashboard analyzed students based on family size:
+
+- **114 students** belonged to families with fewer than 3 members.
+- **283 students** belonged to families with more than 3 members.
+
+This allows further investigation into whether family structure and size are associated with academic outcomes.
+
+---
+
+### ❌ Previous Failures
+
+Previous academic failures were also analyzed.
+
+The distribution included approximately:
+
+| Previous Failures | Students |
+|---|---:|
+| 0 | 152 |
+| 1 | 88 |
+| 2 | 54 |
+| 3 | 13 |
+
+The majority of students had **no previous failures**, while the number of students decreased as the number of previous failures increased.
+
+---
+
+### 📖 Study Time & Academic Performance
+
+The dashboard analyzed the relationship between study time and average grades.
+
+This provides an overview of how different levels of study time are associated with student academic performance and can help identify patterns that deserve further investigation.
+
+---
+
+## 💼 Business / Educational Value
+
+This dashboard can help schools and educational decision-makers:
+
+- Monitor overall student performance.
+- Identify schools with higher absenteeism.
+- Understand factors associated with academic performance.
+- Monitor students with previous academic failures.
+- Evaluate the relationship between study time and grades.
+- Understand the potential impact of parental and family support.
+- Compare students based on access to internet and additional education.
+- Support early identification of students who may need additional support.
+- Make data-driven decisions to improve student outcomes.
 
 ---
 
@@ -158,16 +189,19 @@ This dashboard can help management:
 
 The Power BI dashboard includes:
 
-- KPI Cards
-- Sales & Profit Analysis
-- Year-over-Year Analysis
-- Regional Analysis
-- Market Analysis
-- Customer Segmentation
-- Shipping Analysis
-- Product/Sub-Category Analysis
-- Monthly Transaction Trends
-- Interactive Filters
+- Student KPI Cards
+- School Comparison
+- Academic Performance Analysis
+- Absence Analysis
+- Family Analysis
+- Guardian Analysis
+- Parental Support Analysis
+- Study Time Analysis
+- Internet Access Analysis
+- Previous Failures Analysis
+- Interactive Slicers
+
+---
 
 ## 👨‍💻 Author
 
