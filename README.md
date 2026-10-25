@@ -30,9 +30,9 @@ I start from the **business question**, not the tool:
 | 3 | [Global Superstore Sales](./Global%20Superstore%20Sales) | Sales and profit | Power BI, DAX, Excel |
 | 4 | [Students Performance](./Students_performance) | Education analytics | Python, Pandas, Power BI |
 | 5 | [AdventureWorks2012](./AdventureWorks2012) | SQL analysis | SQL |
-| 6 | [Employee Attrition](./Employee%20Attirition) | HR analytics | [tools] |
-| 7 | [ITI](./ITI) | Students and courses | [tools] |
-| 8 | [Retail Sales](./Retail%20Sales) | Retail performance | [tools] |
+| 6 | [Employee Attrition](./Employee%20Attirition) | HR analytics | [Python] |
+| 7 | [ITI](./ITI) | Students and courses | [SQL] |
+| 8 | [Retail Sales](./Retail%20Sales) | Retail performance | [Excel] |
 
 ---
 
