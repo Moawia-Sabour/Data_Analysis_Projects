@@ -55,27 +55,19 @@ I start from the **business question**, not the tool:
 ### 4️⃣ Students Performance
 **Question:** Which factors affect students' academic results?
 **What I did:** Cleaned the data with Python and Pandas, explored grades, pass/fail rates, performance by gender, and study and lifestyle factors, then built a Power BI dashboard.
-**Findings:** [add 1 or 2 key findings with numbers]
 
 ### 5️⃣ AdventureWorks2012
 **Focus:** SQL analysis on a relational database.
-**What I did:** [add what you analyzed, e.g., sales by territory, top customers]
 **Techniques:** [e.g., Joins, CTEs, Window Functions, Aggregations]
 
 ### 6️⃣ Employee Attrition
 **Question:** Why do employees leave, and which groups are most at risk?
-**What I did:** [add steps and tools]
-**Findings:** [add 1 or 2 findings with numbers]
 
 ### 7️⃣ ITI
 **Focus:** Analysis of students and courses.
-**What I did:** [add steps and tools]
-**Findings:** [add 1 or 2 findings with numbers]
 
 ### 8️⃣ Retail Sales
 **Question:** How do sales perform across products, time, and customers?
-**What I did:** [add steps and tools]
-**Findings:** [add 1 or 2 findings with numbers]
 
 ---
 
